@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Top Mover Quotes</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" type="text/css" href="asset/vendor/bootstrap-3.3.7-dist/css/bootstrap.min.css"/>
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700&amp;subset=cyrillic" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- Datepicker -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-datepicker.css"/>
+
+    <link rel="stylesheet" type="text/css" href="css/main.css"/>
+
+</head>
+
+<body>
+<header>
+    <div class="header">
+        <nav class="navbar" id="navbar-default">
+            <div class="content">
+                <div class="navbar-header">
+                    <a href="./" class="navbar-brand">
+                        <img class="logo" src='images/logo.png' alt='TopMoverQuotes Logo'/>
+                    </a>
+                    <div class="aux-info visible-xs">
+                        <div class="phone-area clearfix">
+                            <div class="text-icon">
+                                <img src='images/call.png' alt='TopMoverQuotes Phone'/>
+                            </div>
+                            <div class="phone-text">
+                  <span class="phone-number">
+                    <a href="tel:800-960-4060" target="_blank">(800) 960 4060</a>
+                  </span>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="navbar-toggle collapsed" type="button" data-toggle="collapse"
+                            data-target="#navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <img src='images/menu.png' alt='Toggle navigation'/>
+                    </button>
+                </div>
+
+                <div id="navbar-collapse" class="collapse navbar-collapse text-center">
+                    <ul class="nav navbar-nav menu-desktop hidden-xs">
+                        <li class="nav-item active">
+                            <a href="./index.html">Homepage </a></li>
+                        <li class="nav-item">
+                            <a href="./about_us.html">About Us</a></li>
+                        <li class="nav-item">
+                            <a href="./state.html">Go by State</a></li>
+                        <li class="nav-item">
+                            <a href="./great_tips.html">Great Tips</a></li>
+                        <li class="nav-item dropdown">
+                            <a href="javascript:void(0)">Login</a>
+                            <ul class="dropdown-wrap">
+                                <li class="nav-item">
+                                    <a href="./log_in.html">Login</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="./sign_up.html">Sign Up</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul class="nav navbar-nav menu-mobile visible-xs">
+                        <li class="nav-item active">
+                            <a href="./index.html">Homepage </a></li>
+                        <li class="nav-item">
+                            <a href="./about_us.html">About Us</a></li>
+                        <li class="nav-item">
+                            <a href="./state.html">Go by State</a></li>
+                        <li class="nav-item">
+                            <a href="./great_tips.html">Great Tips</a></li>
+                        <li class="nav-item">
+                            <a href="./log_in.html">Login</a></li>
+                        <li class="nav-item">
+                            <a href="./sign_up.html">Sign Up</a></li>
+                    </ul>
+
+                    <div class="aux-info hidden-xs hidden-sm">
+                        <div class="phone-area clearfix">
+                            <div class="text-icon">
+                                <img src='images/call.png' alt='TopMoverQuotes Phone'/>
+                            </div>
+                            <div class="phone-text">
+                                <span class="phone-number"><a href="tel:800-960-4060" target="_blank">(800) 960 4060</a></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div><!-- .header -->
+</header>
+<div class="container about-us great-tips" id="container">
+
+
+    <div class="row" id='body'>
+        <div class="content">
+            <div class="col-sm-5 col-xs-12 auth-signup">
+                <form novalidate>
+                    <div class="row auth-title">
+                        <div class="col-xs-12 text-left">
+                            <span class="auth-text-title">Sign up</span>
+                            <br>
+                            <span class="auth-text-subtitle">Become a partner</span>
+                        </div>
+                    </div>
+                    <div class="row auth-fields">
+                        <div class="col-xs-12">
+                            <span class="auth-text-title">Company information</span>
+                            <div class="auth-form-input">
+                                <label>
+                                    <input type='text' id='company' name='company' required>
+                                    <span class="placeholder">Company</span>
+                                </label>
+                            </div>
+                            <div class="auth-form-input">
+                                <label>
+                                    <input type='text' id='us-license' name='us-license' required>
+                                    <span class="placeholder">US License</span>
+                                </label>
+                            </div>
+                            <div class="auth-form-input">
+                                <label>
+                                    <input type='text' id='local-license' name='local-license' required>
+                                    <span class="placeholder">Local license</span>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row auth-fields">
+                        <div class="col-xs-12">
+                            <span class="auth-text-title mt-30">General details</span>
+                        </div>
+                        <div class="col-xs-6">
+                            <div class="auth-form-input">
+                                <label>
+                                    <input type='text' id='first-name' name='first-name' required>
+                                    <span class="placeholder">First name</span>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-xs-6">
+                            <div class="auth-form-input">
+                                <label>
+                                    <input type='text' id='last-name' name='last-name' required>
+                                    <span class="placeholder">Last name</span>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-xs-12">
+                            <div class="auth-form-input">
+                                <label>
+                                    <input type='text' id='email-address' name='email-address' required>
+                                    <span class="placeholder">Email Address</span>
+                                </label>
+                            </div>
+                            <div class="auth-form-input">
+                                <label>
+                                    <input type='text' id='primary-phone' name='primary-phone' required>
+                                    <span class="placeholder">Primary Phone</span>
+                                </label>
+                            </div>
+                            <div class="auth-form-input">
+                                <label>
+                                    <input type='text' id='leads-inbox-email' name='leads-inbox-email' required>
+                                    <span class="placeholder">Leads Inbox Email</span>
+                                </label>
+                            </div>
+                            <div class="auth-form-input">
+                                <label>
+                                    <input type='text' id='website-url' name='website-url' required>
+                                    <span class="placeholder">Website URL</span>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row auth-actions">
+                        <div class="col-xs-12 auth-submit-block">
+                            <button type="submit" class='auth-submit-button pull-right'>
+                                <span class="auth-submit-button-text">Join us as a partner</span>
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="col-sm-1 col-xs-0 auth-delimeter"></div>
+
+            <div class="col-sm-offset-1 col-sm-5 col-xs-12">
+                <div class=" auth-side-block">
+                    <span class="auth-text-title side-title mb-45">What are you getting by becoming a partner?</span>
+                    <div class="flex-left-center mb-45">
+                        <img alt="img" src="images/fire.png"/>
+                        <span class="auth-side-text">100% Hot Moving Leads</span>
+                    </div>
+                    <div class="flex-left-center mb-45">
+                        <img alt="img" src="images/handpay.png"/>
+                        <span class="auth-side-text">Pay-Per-Lead Program</span>
+                    </div>
+                    <div class="flex-left-center mb-45">
+                        <img alt="img" src="images/loudspeaker.png"/>
+                        <span class="auth-side-text">Customized Campaign</span>
+                    </div>
+                    <div class="flex-left-center mb-45">
+                        <img alt="img" src="images/geopin.png"/>
+                        <span class="auth-side-text">Filtered By Geo Location</span>
+                    </div>
+                    <div class="flex-left-center mb-45">
+                        <img alt="img" src="images/moneyspin.png"/>
+                        <span class="auth-side-text">Refund On Bogus Leads</span>
+                    </div>
+                    <div class="flex-left-center mb-45">
+                        <img alt="img" src="images/chaticon.png"/>
+                        <span class="auth-side-text">No Commitment!</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+<div class="container">
+    <div class="row footer" id='footer'>
+        <div class="content">
+            <div class="footer-info col-xs-6 col-md-4">
+                <div class="footer-logo col-xs-12">
+                    <img class="logo" src='images/logo.png' alt='TopMoverQuotes Logo'/>
+                </div>
+                <div class="footer-address col-xs-12">
+                    48 Wall St., 11th floor, New York,
+                    <br> NY 10005 Ph & Fax. (800)960-4060
+                </div>
+                <div class="footer-social col-sm-12 hidden-sm hidden-xs">
+                    <a href="#"><img src='images/digg.png' alt='Digg Icon'/></a>
+                    <a href="#"><img src='images/myspace.png' alt='Myspace Icon'/></a>
+                    <a href="#"><img src='images/facebook.png' alt='Facebook Icon'/></a>
+                    <a href="#"><img src='images/twitter.png' alt='Twitter Icon'/></a>
+                    <a href="#"><img src='images/linkedin.png' alt='Linkedin Icon'/></a>
+                </div>
+            </div>
+            <div class="footer-social col-xs-6 visible-sm visible-xs clearfix">
+                <a href="#"><img src='images/digg.png' alt='Digg Icon'/></a>
+                <a href="#"><img src='images/myspace.png' alt='Myspace Icon'/></a>
+                <a href="#"><img src='images/facebook.png' alt='Facebook Icon'/></a>
+                <a href="#"><img src='images/twitter.png' alt='Twitter Icon'/></a>
+                <a href="#"><img src='images/linkedin.png' alt='Linkedin Icon'/></a>
+            </div>
+            <div class="footer-menu col-sm-8 hidden-sm hidden-xs clearfix">
+                <div class="menu-column col-sm-3">
+                    <div class="title">Services</div>
+                    <div class="links">
+                        <a href="#">Local</a>
+                        <a href="#">Interstate</a>
+                        <a href="#">International</a>
+                        <a href="#">Worldwide</a>
+                        <a href="#">Long Distance</a>
+                    </div>
+                </div>
+                <div class="menu-column col-sm-3">
+                    <div class="title">Articles</div>
+                    <div class="links">
+                        <a href="#">Your Rights</a>
+                        <a href="#">Industry Scams</a>
+                        <a href="#">Move Glossary</a>
+                        <a href="#">Moving Story</a>
+                        <a href="#">Auto Transport</a>
+                    </div>
+                </div>
+                <div class="menu-column col-sm-3">
+                    <div class="title">Tips</div>
+                    <div class="links">
+                        <a href="#">Self Service</a>
+                        <a href="#">Self Storage</a>
+                        <a href="#">Packing Tips</a>
+                        <a href="#">Boxes</a>
+                        <a href="#">Saving Tips</a>
+                    </div>
+                </div>
+                <div class="menu-column col-sm-3">
+                    <div class="title">General</div>
+                    <div class="links">
+                        <a href="#">About Us</a>
+                        <a href="#">Resources</a>
+                        <a href="#">Contact Us</a>
+                        <a href="#">Privacy Policy</a>
+                        <a href="#">Terms of Use</a>
+                        <a href="#">Partner With Us</a>
+                    </div>
+                </div>
+            </div>
+            <div class="panel-group visible-sm visible-xs col-xs-12" id="accordion">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapseServices">
+                            <div class="title">
+                                Services
+                                <i class="fa fa-plus pull-right"></i>
+                            </div>
+                        </a>
+                    </div>
+                    <div id="collapseServices" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <div class="links">
+                                <a href="#">Local</a>
+                                <a href="#">Interstate</a>
+                                <a href="#">International</a>
+                                <a href="#">Worldwide</a>
+                                <a href="#">Long Distance</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapseArticles">
+                            <div class="title">
+                                Articles
+                                <i class="fa fa-plus pull-right"></i>
+                            </div>
+                        </a>
+                    </div>
+                    <div id="collapseArticles" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <div class="links">
+                                <a href="#">Your Rights</a>
+                                <a href="#">Industry Scams</a>
+                                <a href="#">Move Glossary</a>
+                                <a href="#">Moving Story</a>
+                                <a href="#">Auto Transport</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapseTips">
+                            <div class="title">
+                                Tips
+                                <i class="fa fa-plus pull-right"></i>
+                            </div>
+                        </a>
+                    </div>
+                    <div id="collapseTips" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <div class="links">
+                                <a href="#">Self Service</a>
+                                <a href="#">Self Storage</a>
+                                <a href="#">Packing Tips</a>
+                                <a href="#">Boxes</a>
+                                <a href="#">Saving Tips</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapseGeneral">
+                            <div class="title">General
+                                <i class="fa fa-plus pull-right"></i>
+                            </div>
+                        </a>
+                    </div>
+                    <div id="collapseGeneral" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <div class="links">
+                                <a href="#">About Us</a>
+                                <a href="#">Resources</a>
+                                <a href="#">Contact Us</a>
+                                <a href="#">Privacy Policy</a>
+                                <a href="#">Terms of Use</a>
+                                <a href="#">Partner With Us</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12">
+                <div class=" footer-rights text-center text-muted">
+                    &copy; All Rights Reserved 2016 | <a href="www.tmq.us">Top Mover Quotes</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="asset/vendor/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+<script  src="js/bootstrap-datepicker.js"></script>
+<script  src="js/form.js"></script>
+<script  src="js/index.js"></script>
+<script  src="js/map.js"></script>
+<script  src="js/footer.js"></script>
+<script  src="js/auth.js"></script>
+<script  src="js/main.js"></script>
+</body>
+
+</html>
